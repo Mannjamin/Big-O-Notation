@@ -48,7 +48,7 @@ Common uses of Quadratic Algorithm include:</p>
 <li>Insertion and Deleting data within Heap Data Structures…</li>
 </ul>
 <p>A Code Example of O(Log N) would be:</p>
-<pre><code class="language-Java">    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i = <span class="hljs-number">2</span>) {
+<pre><code class="language-Java">    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i =  i * 2) {
         <span class="hljs-comment">// Do Something</span>
     }
 </code></pre>
@@ -63,7 +63,7 @@ Common uses of Quadratic Algorithm include:</p>
 </ul>
 <p>A Code Example of O(N*Log N)</p>
 <pre><code class="language-Java">    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {
-        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> j = <span class="hljs-number">1</span>; j &lt; n; j = <span class="hljs-number">2</span>){
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> j = <span class="hljs-number">1</span>; j &lt; n; j = j * 2){
             <span class="hljs-comment">// Do Something</span>
         }
     }
