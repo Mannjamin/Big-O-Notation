@@ -7,7 +7,7 @@ Average Results are therefore unreliable data.The likelihood of code compilation
 <h2><a id="How_is_The_Big_O_Notation_utilised_8"></a>How is The Big O Notation utilised?</h2>
 <p>The Big O Notation describes the rate of growth of an algorithm over time. This is written out in as the equation O(). There are different types of the Big O Notation.</p>
 <h3><a id="Constant_Time__O1_11"></a>Constant Time - O(1):</h3>
-<p>O(1) is known as a Constant Time O <a href="http://Notation.It">Notation.It</a> describes an algorithms rate of growth over a constant time period. It is commonly associated with basic statements such as inserting / retrieving items into lists, assigning variables with values and so forth. Other simple statements include obtaining data from hashmaps using keys and determining boolean values in Binary.<br>
+<p>O(1) is known as a Constant Time O Notation. It describes an algorithms rate of growth over a constant time period. It is commonly associated with basic statements such as inserting / retrieving items into lists, assigning variables with values and so forth. Other simple statements include obtaining data from hashmaps using keys and determining boolean values in Binary.<br>
 A Code Example of O(1) would be:</p>
 <pre><code class="language-java">    <span class="hljs-keyword">long</span> dataValue = <span class="hljs-number">1</span>;
 </code></pre>
